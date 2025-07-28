@@ -1,0 +1,68 @@
+footer{
+   background: $black;
+
+  .footer{
+
+    &_wrapper {
+      padding: 3.6rem 20.2rem 8.5rem;
+      display: flex;
+      width: 100%;
+      align-items: center;
+    }
+
+
+    &_row{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      gap: 12rem;
+
+
+      &-logo{
+        display: flex;
+        align-items: center;
+        width: 22rem;
+        img{
+          width: 15.3rem;
+          height: 4.6rem;
+        }
+
+        p{
+          color: #FFF;
+          font-family: $base-ff;
+          font-size: 2rem;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+        }
+      }
+
+      &-link{
+        color: #FFF;
+        font-family: $base-ff;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+
+        &:hover{
+          opacity: 0.6;
+        }
+      }
+
+      ul{
+        display: flex;
+        width: 85.9rem;
+        align-items: center;
+        justify-content: space-between;
+        li{
+
+        }
+      }
+
+    }
+
+
+
+  }
+}

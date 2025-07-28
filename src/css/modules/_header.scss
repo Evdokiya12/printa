@@ -1,0 +1,116 @@
+header{
+  margin-top: 3.2rem;
+  width: 100%;
+  .header_wrapper{
+    padding: 0 21.1rem;
+    width: 100%;
+
+
+
+  }
+
+  .header{
+
+    &_row{
+      width: 100%;
+      padding-left: 2.7rem;
+
+      ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      &-link{
+        color: #000;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+
+        &:hover{
+          opacity: 0.6;
+        }
+      }
+    }
+
+    &_info{
+      display: flex;
+      width: 100%;
+      margin-top: 0.5rem;
+      align-items: center;
+
+      &-logo{
+        img{
+          width: 33.4rem;
+          height: 9.6rem;
+        }
+      }
+
+      &-search{
+        border: 0.1rem solid #8D8B8B;
+        padding: 1rem 1.1rem 1.3rem;
+        width: 30.8rem;
+        font-family: $base-ff;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 2.2rem;
+      }
+
+      ul{
+        display: flex;
+        align-items: center;
+        //gap: 2.4rem;
+        margin-left: 2.7rem;
+
+        li{
+          &:nth-child(2){
+            margin-left: 2.4rem;
+          }
+
+          &:nth-child(3){
+            margin-left: 1.8rem;
+          }
+
+          &:nth-child(4){
+            margin-left: 2.5rem;
+          }
+        }
+      }
+
+      &-contact{
+        display: flex;
+        align-items: center;
+        color: #050505;
+        font-family: $base-ff;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        white-space: nowrap;
+
+
+      }
+
+      &-form{
+        background: transparent;
+        padding: 1rem 3.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.1rem solid #736D6D;
+        color: #393536;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        white-space: nowrap;
+        margin-left: 2.4rem;
+      }
+    }
+  }
+}

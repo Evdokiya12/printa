@@ -1,0 +1,22 @@
+.ui-kit{
+
+
+  .link{
+    color: pink;
+    font-size: rem(56);
+    margin: rem(17) 0 27px;
+
+    &:hover{
+      color: blue;
+    }
+
+    &.active{
+      color: orange;
+    }
+  }
+
+
+
+
+}
+

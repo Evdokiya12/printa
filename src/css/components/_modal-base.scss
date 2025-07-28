@@ -1,0 +1,145 @@
+.modal-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  will-change: opacity;
+  z-index: -1;
+
+  &.modal-show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity $duration $effect, visibility $duration $effect;
+    z-index: 10000;
+  }
+
+  .modal-shadow {
+    background: rgba($black, 0.5);
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+
+  .modal {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 48rem;
+    height: 100vh;
+    padding: 4rem;
+    border-radius: 0px;
+    background: $white;
+    z-index: 100;
+
+    @include phone {
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      padding: 1rem 1.6rem 3.2rem 1.6rem;
+      transform: none;
+    }
+  }
+
+  .modal-cross {
+    position: relative;
+    display: block;
+    padding: 0.8rem;
+    width: 4rem;
+    height: 4rem;
+    align-self: flex-end;
+    border-radius: 50%;
+    border: 0.1rem solid red;
+    cursor: pointer;
+    z-index: 3;
+    transition: all $duration;
+
+    &:hover {
+      background-color: red;
+
+      &::before {
+        opacity: 0;
+      }
+
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+
+  .modal-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+    height: 100%;
+    padding: 0;
+    z-index: 2;
+
+    & .wpcf7{
+      width: 100%;
+    }
+
+    & .wpcf7-list-item{
+      margin: 0;
+    }
+
+    @include phone {
+      // padding: 1rem;
+    }
+  }
+
+  .modal-content {
+    color: $black;
+  }
+
+  .modal-btn {
+    width: 100%;
+  }
+
+  .modal-btn-close span {
+    border: 0.1rem solid red;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+
+    .modal-logo {
+      display: none;
+    }
+
+    @include phone {
+      justify-content: space-between;
+
+      & .modal-logo {
+        display: block;
+      }
+    }
+  }
+}
+
+.wpcf7-list-item{
+  margin: 0;
+}
+
+.modal-active{
+  overflow: hidden;
+  height: 100vh;
+}
+
+#modal-form .acceptance-row{
+  margin: 0;
+}

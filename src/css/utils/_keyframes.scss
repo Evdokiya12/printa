@@ -1,0 +1,265 @@
+@keyframes visibleText {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(10rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes imageLeft {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes imageRight {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(50%) translateY(0);
+  }
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 2900;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scaleSquare {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleCircle {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(-120%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(120%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideLine {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes opacityText {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(10rem);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes backgroundGrey {
+  from {
+    background-color: $white;
+  }
+
+  to {
+    background-color: $grey;
+  }
+}
+
+@keyframes slideMenu {
+  from {
+    transform: translateX(-150%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes animFont{
+  from{
+    // opacity: 0;
+    letter-spacing: 5rem;
+  }
+
+  to {
+    // opacity: 1;
+    letter-spacing: 0;
+  }
+}
+
+@keyframes animFont2 {
+  from {
+    gap: 15rem;
+    transform: translateX(-100%) scale(0);
+  }
+
+  to {
+    gap: 0;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes animFont3 {
+  from {
+    gap: 15rem;
+    transform: translateX(100%) scale(0);
+  }
+
+  to {
+    gap: 0;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes animTitle {
+  from {
+    transform: translate(10rem, 5rem) scale(0) rotate(180deg);
+  }
+
+  to {
+    transform: translateY(0) scale(1) rotate(0);
+  }
+}
+
+@keyframes animTitle2 {
+  from {
+    gap: 2rem;
+  }
+
+  to {
+    gap: 0;
+  }
+}
+
+@keyframes companyPeopleText {
+  from {
+    opacity: 0;
+    width: 200rem;
+    transform: translate(-50%, -50%) scale(0.3);
+  }
+
+  to {
+    opacity: 1;
+    width: 65.6rem;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes letter {
+  from {
+    letter-spacing: 4rem;
+  }
+
+  to {
+    letter-spacing: 0;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes afterSlideLeft {
+  from {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  to {
+    transform: translateX(-151%) translateY(0);
+  }
+}
+
+@keyframes afterSlideRight {
+  from {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  to {
+    transform: translateX(51%) translateY(0);
+  }
+}
+
+@keyframes halfOpacity {
+  from {
+    opacity: 0.6;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
