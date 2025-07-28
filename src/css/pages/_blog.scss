@@ -1,0 +1,54 @@
+.blog{
+
+  section{
+    padding-bottom: 12.7rem;
+  }
+
+  h1{
+    color: #000;
+    font-family: $base-ff;
+    font-size: 4.9rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 3.8rem;
+  }
+
+  &_container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 3.6rem;
+      gap: 1rem 1rem;
+
+    img{
+      width: 100%;
+      height: 34.4rem;
+    }
+
+    &-card{
+      width: 49%;
+    }
+
+    &-name{
+      color: #000;
+      font-family: $base-ff;
+      font-size: 1.9rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 1.9rem;
+    }
+
+    &-desc{
+      color: #000;
+      font-family: $base-ff;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 0.6rem;
+    }
+  }
+}
