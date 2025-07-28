@@ -1,0 +1,206 @@
+.about{
+
+  .company{
+    margin-top: 4rem;
+
+    h1{
+      color: #000;
+      font-family: $base-ff;
+      font-size: 2.2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    p{
+      margin-top: 1.7rem;
+      color: #000;
+      font-family: $base-ff;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &_container{
+      display: flex;
+      gap: 3.4rem;
+      width: 100%;
+      margin-top: 2.7rem;
+
+      &-img{
+        width: 57.2rem;
+        height: 34.4rem;
+
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      &-text{
+        max-width: 57.6rem;
+        padding-top: 2.6rem;
+
+        h2{
+          max-width: 52.5rem;
+          color: #000;
+          font-family: $base-ff;
+          font-size: 2.1rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+
+        p{
+          margin-top: 2rem;
+          color: #000;
+          font-family: $base-ff;
+          font-size: 1.6rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+
+        ul{
+
+          margin-top: 2rem;
+          li{
+            color: #000;
+            font-family: $base-ff;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+
+  .delivery{
+    margin-top: 6.8rem;
+
+    h2{
+      color: #000;
+      font-family: $base-ff;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+
+    &_container {
+      display: flex;
+      background: #ECECED;
+      width: 100%;
+      padding: 3.3rem 7rem;
+      margin-top: 2.3rem;
+      gap: 7.6rem;
+
+      &-block{
+        display: flex;
+        flex-direction: column;
+
+        ul{
+          margin-top: 0.5rem;
+          color: #000;
+          font-family: $base-ff;
+          font-size: 1.6rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          list-style: disc;
+
+          li{
+            list-style: disc;
+          }
+        }
+      }
+
+      &-info {
+        display: flex;
+        color: #000;
+        font-family: $base-ff;
+        font-size: 2.3rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+
+
+    }
+  }
+
+  .cards{
+    margin-top: 4.3rem;
+    padding-bottom: 9.3rem;
+
+    h2{
+      color: #000;
+      font-family: $base-ff;
+      font-size: 2.3rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+
+    }
+
+    p{
+      color: #000;
+      font-family: $base-ff;
+      font-size: 1.6rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 0.2rem;
+    }
+
+    &_container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      gap: 2rem 2rem;
+
+      &-element{
+        width: 38.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        img{
+          width: 6.2rem;
+          height: 6.2rem;
+        }
+
+        p{
+          color: #000;
+          font-family: $base-ff;
+          font-size: 1.6rem;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+        &:nth-child(1){
+          img{
+            width: 7.7rem;
+            height: 11.5rem;
+          }
+          p{
+            position: relative;
+            top: -1.7rem;
+          }
+        }
+      }
+
+
+
+    }
+  }
+}
