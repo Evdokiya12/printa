@@ -1935,3 +1935,72 @@ header .header_info-form {
   line-height: normal;
   margin-top: 0;
 }
+
+.support .service {
+  padding-bottom: 9.2rem;
+}
+.support .service_row h1 {
+  margin-top: 3.8rem;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.support .service_row p {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.support .service_row span {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.support .service_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+  flex-direction: row;
+}
+.support .service_container:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.support .service_container-text p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+.support .service_container-text ul {
+  margin-left: 2rem;
+}
+.support .service_container-text ul li {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style: disc;
+}
+.support .service_container_img {
+  width: 57.2rem;
+  height: 34.4rem;
+}
