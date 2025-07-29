@@ -1974,9 +1974,13 @@ header .header_info-form {
   justify-content: space-between;
   margin-top: 2.4rem;
   flex-direction: row;
+  gap: 3.8rem;
 }
 .support .service_container:nth-child(odd) {
   flex-direction: row-reverse;
+}
+.support .service_container-text {
+  max-width: 60rem;
 }
 .support .service_container-text p {
   color: #000;
@@ -2003,4 +2007,255 @@ header .header_info-form {
 .support .service_container_img {
   width: 57.2rem;
   height: 34.4rem;
+}
+
+.card .product {
+  padding-bottom: 7.1rem;
+}
+.card .product_container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+.card .product_row {
+  display: flex;
+  gap: 4.3rem;
+}
+.card .product_row-first {
+  max-width: 42.5rem;
+  width: 100%;
+}
+.card .product_row-first h2 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+.card .product_row-first p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1.6rem;
+}
+.card .product_row-first .subtitle {
+  margin-top: 0.2rem;
+}
+.card .product_row-first ul {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
+.card .product_row-first ul li {
+  list-style: disc;
+}
+.card .product_row-second {
+  margin-top: 4.5rem;
+}
+.card .product_row-second .direction {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+.card .product_row-second .direction p {
+  color: #C1C1C4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.card .product_row-second .direction img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.card .product_row-second .layout p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card .product_row-second .layout .description {
+  display: flex;
+}
+.card .product_row-second .layout .description .info {
+  margin-top: 3.4rem;
+}
+.card .product_row-second .layout .description .info .name {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card .product_row-second .layout .description .info ul {
+  margin-top: 0.5rem;
+}
+.card .product_row-second .layout .description .info ul li {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card .product_row-second .layout .description .info .coast {
+  margin-top: 1rem;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card .product_row-second .layout .basket {
+  display: flex;
+  gap: 1.9rem;
+  margin-top: 2.6rem;
+}
+.card .product_row-second .layout .basket input {
+  width: 11.3rem;
+  height: 5.4rem;
+  background: #ECECED;
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card .product_row-second .layout .basket .to-cart {
+  display: flex;
+  width: 58.6rem;
+  padding: 1.6rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: #231F20;
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card .product_row-second .container {
+  margin-top: 3.4rem;
+  flex-direction: column;
+  display: flex;
+  gap: 3.4rem;
+}
+.card .product_row-second .container_story {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.card .product_row-second .container_story p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+.card .product_row-second .container_story span {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card .product_row-second .container_specification {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.card .product_row-second .container_specification .title {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card .product_row-second .container_specification p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+.card .product_row-second .container_specification span {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card .product_row-second .container_ship {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.card .product_row-second .container_ship p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+.card .product_row-second .container_ship span {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card .product_row-second .container_payment {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.card .product_row-second .container_payment p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+.card .product_row-second .container_payment ul li {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style: disc;
+  margin-left: 2rem;
 }

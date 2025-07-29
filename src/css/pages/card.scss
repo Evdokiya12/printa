@@ -1,0 +1,321 @@
+.card{
+  .product{
+    padding-bottom: 7.1rem;
+
+    &_container{
+      display: flex;
+      flex-direction: column;
+      gap: 3.4rem;
+
+    }
+
+    &_row{
+      display: flex;
+      gap: 4.3rem;
+
+
+      &-first{
+        max-width: 42.5rem;
+        width: 100%;
+
+
+        h2{
+
+          color: #000;
+          font-family: $base-ff;
+          font-size: 3.6rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: uppercase;
+          margin-top: 4rem;
+        }
+
+        p{
+          color: #000;
+          font-family: $base-ff;
+          font-size: 1.9rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin-top: 1.6rem;
+        }
+
+        .subtitle{
+          margin-top: 0.2rem;
+        }
+
+        ul{
+          color: #000;
+          font-family: $base-ff;
+          font-size: 1.6rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-top: 0.5rem;
+          margin-left: 2rem;
+
+
+          li{
+            list-style: disc;
+          }
+        }
+
+      }
+      &-second{
+        margin-top: 4.5rem;
+
+
+        .direction{
+          display: flex;
+          align-items: center;
+          gap: 1.3rem;
+
+          p{
+            color: #C1C1C4;
+            font-family: $base-ff;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+          }
+
+          img{
+            width: 1.6rem;
+            height: 1.6rem;
+          }
+
+
+        }
+
+        .layout{
+
+
+          p{
+            color: #000;
+            font-family: $base-ff;
+            font-size: 1.9rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+
+          .description{
+            display: flex;
+
+            .info{
+              margin-top: 3.4rem;
+
+              img{
+
+              }
+
+              .name{
+                color: #000;
+                font-family: $base-ff;
+                font-size: 1.9rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+
+              }
+
+              ul {
+                margin-top: 0.5rem;
+                li {
+                  color: #000;
+                  font-family: $base-ff;
+                  font-size: 1.6rem;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: normal;
+                }
+
+              }
+
+              .coast {
+                margin-top: 1rem;
+                color: #000;
+                font-family: $base-ff;
+                font-size: 3.3rem;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+              }
+
+            }
+
+          }
+
+          .basket{
+            display: flex;
+            gap: 1.9rem;
+            margin-top: 2.6rem;
+
+            input{
+              width: 11.3rem;
+              height: 5.4rem;
+              background: #ECECED;
+              color: #000;
+              text-align: center;
+              font-family: $base-ff;
+              font-size: 2.5rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+
+            }
+
+            .to-cart{
+              display: flex;
+              width: 58.6rem;
+              padding: 1.6rem 2rem;
+              justify-content: center;
+              align-items: center;
+              gap: 1rem;
+              background: #231F20;
+              color: #FFF;
+              font-family: $base-ff;
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+        }
+        .container{
+              margin-top: 3.4rem;
+          flex-direction: column;
+              display: flex;
+              gap: 3.4rem;
+
+
+          &_story{
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+
+            p{
+              color: #000;
+              font-family: $base-ff;
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              margin-bottom: 0.5rem;
+            }
+
+            span{
+              color: #000;
+              font-family: $base-ff;
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+
+          &_specification{
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+
+            .title{
+              color: #000;
+              font-family: $base-ff;
+              font-size: 19px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+
+            p{
+              color: #000;
+              font-family: $base-ff;
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              margin-bottom: 0.5rem;
+            }
+
+            span{
+              color: #000;
+              font-family: $base-ff;
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+
+          &_ship{
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+
+            p{
+              color: #000;
+              font-family: $base-ff;
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              margin-bottom: 0.5rem;
+            }
+
+            span{
+              color: #000;
+              font-family: $base-ff;
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+
+
+          }
+
+          &_payment{
+            display: flex;
+            flex-direction: column;
+            gap: 0.9rem;
+
+            p{
+              color: #000;
+              font-family: $base-ff;
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              margin-bottom: 0.5rem;
+
+            }
+
+            ul{
+
+              li{
+                color: #000;
+                font-family: $base-ff;
+                font-size: 1.6rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                list-style: disc;
+                margin-left: 2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+}
