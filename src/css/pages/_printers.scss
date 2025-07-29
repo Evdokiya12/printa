@@ -1,0 +1,188 @@
+.printers{
+  .technic{
+    padding-bottom: 7.7rem;
+
+    &_container{
+      display: flex;
+      flex-direction: column;
+      gap: 3.4rem;
+    }
+
+    &_row{
+      display: flex;
+      gap: 2.8rem;
+
+      &-first{
+        max-width: 42.5rem;
+        width: 100%;
+
+        h2{
+          color: #000;
+          font-family: $base-ff;
+          font-size: 3.6rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: uppercase;
+          margin-top: 4rem;
+        }
+
+        p{
+          color: #000;
+          font-family: $base-ff;
+          font-size: 1.6rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin-top: 1rem;
+        }
+        ul{
+          margin-top: 0.7rem;
+          color: #000;
+          font-family: $base-ff;
+          font-size: 1.6rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-left: 2rem;
+
+          li{
+            list-style: disc;
+          }
+        }
+
+        &_materials{
+          margin-top: 3.4r1em;
+        }
+      }
+
+
+      &-second{
+        width: 73.9rem;
+        height: 100%;
+
+        h1{
+          color: #000;
+          font-family: $base-ff;
+          font-size: 4.6rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          text-transform: uppercase;
+          margin-top: 4rem;
+        }
+
+        p{
+            color: #000;
+            font-family: $base-ff;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 1.8rem;
+          }
+
+
+
+      }
+
+    }
+
+    &_cards{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      margin-top: 2.8rem;
+      &-element{
+        width: 23.8rem;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem 1.5rem 1.5rem;
+        background: #ECECED;
+
+        .coast{
+          color: #000;
+          text-align: center;
+          font-family: $base-ff;
+          font-size: 2rem;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin-top: 0;
+        }
+
+        .all{
+          background: #231F20;
+          display: flex;
+          padding: 1.6rem 2rem;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+          height: 5.2rem;
+
+            p{
+              color: #FFF;
+              font-family: $base-ff;
+              font-size: 1.6rem;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              margin-top: 0;
+              width: 100%;
+              height: 100%;
+            }
+        }
+        img{
+          width: 20.7rem;
+          height: 20rem;
+          flex-shrink: 0;
+          border-radius: 3rem;
+        }
+
+        p{
+          color: #000;
+          text-align: center;
+          font-family: $base-ff;
+          font-size: 1.4rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin-top: 0;
+        }
+      }
+
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
