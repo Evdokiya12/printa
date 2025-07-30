@@ -2389,3 +2389,147 @@ header .header_info-form {
   width: 100%;
   height: 100%;
 }
+
+.xerox .catalog {
+  margin-bottom: 7.1rem;
+}
+.xerox .catalog_container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+.xerox .catalog_row {
+  display: flex;
+  gap: 3.2rem;
+}
+.xerox .catalog_row-first {
+  max-width: 38rem;
+  width: 100%;
+}
+.xerox .catalog_row-first h2 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+.xerox .catalog_row-first .title {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1.6rem;
+}
+.xerox .catalog_row-first .subtitle {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0.2rem;
+}
+.xerox .catalog_row-first ul {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+.xerox .catalog_row-first ul li {
+  list-style: disc;
+}
+.xerox .catalog_row-first ul li a {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.xerox .catalog_row-second .breadcrumbs {
+  margin-top: 4.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+.xerox .catalog_row-second .breadcrumbs p {
+  color: #C1C1C4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.xerox .catalog_row-second .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 3.7rem;
+}
+.xerox .catalog_row-second .cards-element {
+  width: 23.8rem;
+  background: #ECECED;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem 1.5rem;
+  gap: 1rem;
+}
+.xerox .catalog_row-second .cards-element .img {
+  width: 20.7rem;
+  height: 14.1rem;
+  border-radius: 3rem;
+}
+.xerox .catalog_row-second .cards-element .description .name {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0.8rem;
+  margin-top: 0.4rem;
+}
+.xerox .catalog_row-second .cards-element .description .cost {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.xerox .catalog_row-second .cards-element .all {
+  display: flex;
+  padding: 1.6rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 0.1rem solid #000;
+  background: #FFF;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.xerox .catalog_row-second .cards-element button {
+  display: flex;
+  padding: 1.6rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: #231F20;
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
