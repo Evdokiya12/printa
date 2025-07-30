@@ -2259,3 +2259,133 @@ header .header_info-form {
   list-style: disc;
   margin-left: 2rem;
 }
+
+.paper .catalog {
+  padding-bottom: 8.5rem;
+}
+.paper .catalog_container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+.paper .catalog_row {
+  display: flex;
+  gap: 2.8rem;
+}
+.paper .catalog_row-first {
+  max-width: 42.5rem;
+  width: 100%;
+}
+.paper .catalog_row-first h2 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+.paper .catalog_row-first p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+.paper .catalog_row-first ul {
+  margin-left: 1.5rem;
+}
+.paper .catalog_row-first ul li {
+  list-style: disc;
+}
+.paper .catalog_row-first ul li a {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.paper .catalog_row-second {
+  width: 73.9rem;
+}
+.paper .catalog_row-second h1 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 73.4rem;
+  margin-top: 3.8rem;
+}
+.paper .catalog_row-second p {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 2.1rem;
+}
+.paper .catalog_cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+.paper .catalog_cards-element {
+  width: 23.8rem;
+  height: max-content;
+  background: #ECECED;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem 1.5rem;
+  gap: 2rem;
+}
+.paper .catalog_cards .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.6rem;
+}
+.paper .catalog_cards p {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 0 !important;
+}
+.paper .catalog_cards .img {
+  width: 20.7rem;
+  height: 15rem;
+  border-radius: 3rem;
+}
+.paper .catalog_cards .all {
+  display: flex;
+  padding: 1.6rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: #231F20;
+  height: 5.2rem;
+}
+.paper .catalog_cards .all p {
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -55,8 +55,6 @@
           margin-top: 3.4r1em;
         }
       }
-
-
       &-second{
         width: 73.9rem;
         height: 100%;
@@ -85,7 +83,6 @@
 
 
       }
-
     }
 
     &_cards{
@@ -93,6 +90,7 @@
       flex-wrap: wrap;
       gap: 1.2rem;
       margin-top: 2.8rem;
+
       &-element{
         width: 23.8rem;
         height: max-content;
