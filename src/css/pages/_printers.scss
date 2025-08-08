@@ -1,50 +1,50 @@
 .printers{
   .technic{
-    padding-bottom: 7.7rem;
+    padding-bottom: rem(77);
 
     &_container{
       display: flex;
       flex-direction: column;
-      gap: 3.4rem;
+      gap: rem(34);
     }
 
     &_row{
       display: flex;
-      gap: 2.8rem;
+      //gap: rem(28);
 
       &-first{
-        max-width: 42.5rem;
+        max-width: rem(409);
         width: 100%;
 
         h2{
           color: #000;
           font-family: $base-ff;
-          font-size: 3.6rem;
+          font-size: rem(36);
           font-style: normal;
           font-weight: 700;
           line-height: normal;
           text-transform: uppercase;
-          margin-top: 4rem;
+          margin-top: rem(40);
         }
 
         p{
           color: #000;
           font-family: $base-ff;
-          font-size: 1.6rem;
+          font-size: rem(16);
           font-style: normal;
           font-weight: 700;
           line-height: normal;
-          margin-top: 1rem;
+          margin-top: rem(10);
         }
         ul{
-          margin-top: 0.7rem;
+          margin-top: rem(7);
           color: #000;
           font-family: $base-ff;
-          font-size: 1.6rem;
+          font-size: rem(16);
           font-style: normal;
           font-weight: 400;
           line-height: normal;
-          margin-left: 2rem;
+          margin-left: rem(20);
 
           li{
             list-style: disc;
@@ -52,32 +52,32 @@
         }
 
         &_materials{
-          margin-top: 3.4r1em;
+          margin-top: rem(34);
         }
       }
       &-second{
-        width: 73.9rem;
+        width: rem(739);
         height: 100%;
 
         h1{
           color: #000;
           font-family: $base-ff;
-          font-size: 4.6rem;
+          font-size: rem(46);
           font-style: normal;
           font-weight: 700;
           line-height: normal;
           text-transform: uppercase;
-          margin-top: 4rem;
+          margin-top: rem(40);
         }
 
         p{
             color: #000;
             font-family: $base-ff;
-            font-size: 1.6rem;
+            font-size: rem(16);
             font-style: normal;
             font-weight: 400;
             line-height: normal;
-            margin-top: 1.8rem;
+            margin-top: rem(18);
           }
 
 
@@ -88,23 +88,30 @@
     &_cards{
       display: flex;
       flex-wrap: wrap;
-      gap: 1.2rem;
-      margin-top: 2.8rem;
+      gap: rem(12);
+      margin-top: rem(28);
 
       &-element{
-        width: 23.8rem;
+        width: rem(238);
         height: max-content;
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
-        padding: 1rem 1.5rem 1.5rem;
+        gap: rem(15);
+        padding: rem(10) rem(15) rem(15);
         background: #ECECED;
+        transition: all .3s ease-in-out;
+
+        &:hover{
+          img{
+            filter: grayscale(0);
+          }
+        }
 
         .coast{
           color: #000;
           text-align: center;
           font-family: $base-ff;
-          font-size: 2rem;
+          font-size: rem(20);
           font-style: normal;
           font-weight: 700;
           line-height: normal;
@@ -114,16 +121,16 @@
         .all{
           background: #231F20;
           display: flex;
-          padding: 1.6rem 2rem;
+          padding: rem(16) rem(20);
           justify-content: center;
           align-items: center;
-          gap: 1rem;
-          height: 5.2rem;
+          gap: rem(10);
+          height: rem(52);
 
             p{
               color: #FFF;
               font-family: $base-ff;
-              font-size: 1.6rem;
+              font-size: rem(16);
               font-style: normal;
               font-weight: 400;
               line-height: normal;
@@ -133,17 +140,18 @@
             }
         }
         img{
-          width: 20.7rem;
-          height: 20rem;
+          width: rem(207);
+          height: rem(200);
           flex-shrink: 0;
-          border-radius: 3rem;
+          border-radius: rem(30);
+          filter: grayscale(1);
         }
 
         p{
           color: #000;
           text-align: center;
           font-family: $base-ff;
-          font-size: 1.4rem;
+          font-size: rem(14);
           font-style: normal;
           font-weight: 600;
           line-height: normal;

@@ -1,16 +1,16 @@
 .support{
 
   .service{
-    padding-bottom: 9.2rem;
+    padding-bottom: rem(92);
 
 
     &_row{
 
       h1{
-        margin-top: 3.8rem;
+        margin-top: rem(38);
         color: #000;
         font-family: $base-ff;
-        font-size: 4.9rem;
+        font-size: rem(49);
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -19,11 +19,11 @@
 
 
       p{
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
+        margin-top: rem(05);
+        margin-bottom: rem(10);
         color: #000;
         font-family: $base-ff;
-        font-size: 1.9rem;
+        font-size: rem(19);
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -33,7 +33,7 @@
       span{
         color: #000;
         font-family: $base-ff;
-        font-size: 1.6rem;
+        font-size: rem(16);
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -49,34 +49,34 @@
       align-items: center;
       width: 100%;
       justify-content: space-between;
-      margin-top: 2.4rem;
+      margin-top: rem(24);
       flex-direction: row;
-      gap: 3.8rem;
+      gap: rem(38);
 
       &:nth-child(odd){
         flex-direction: row-reverse;
       }
 
       &-text{
-        max-width: 60rem;
+        max-width: rem(600);
 
         p{
           color: #000;
           font-family: $base-ff;
-          font-size: 2.5rem;
+          font-size: rem(25);
           font-style: normal;
           font-weight: 700;
           line-height: normal;
-          margin-bottom: 0.5rem;
+          margin-bottom: rem(5);
           margin-top: 0;
         }
 
         ul{
-          margin-left: 2rem;
+          margin-left: rem(20);
           li{
             color: #000;
             font-family: $base-ff;
-            font-size: 1.6rem;
+            font-size: rem(16);
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -86,15 +86,9 @@
       }
 
       &_img{
-        width: 57.2rem;
-        height: 34.4rem;
+        width: rem(572);
+        height: rem(344);
       }
     }
   }
-
-
-
-
-
-
 }

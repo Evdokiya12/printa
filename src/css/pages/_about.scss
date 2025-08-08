@@ -1,12 +1,12 @@
 .about{
 
   .company{
-    margin-top: 4rem;
+    margin-top: rem(40);
 
     h1{
       color: #000;
       font-family: $base-ff;
-      font-size: 2.2rem;
+      font-size: rem(22);
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -14,10 +14,10 @@
     }
 
     p{
-      margin-top: 1.7rem;
+      margin-top: rem(17);
       color: #000;
       font-family: $base-ff;
-      font-size: 1.6rem;
+      font-size: rem(16);
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -25,13 +25,13 @@
 
     &_container{
       display: flex;
-      gap: 3.4rem;
+      gap: rem(34);
       width: 100%;
-      margin-top: 2.7rem;
+      margin-top: rem(27);
 
       &-img{
-        width: 57.2rem;
-        height: 34.4rem;
+        width: rem(572);
+        height: rem(344);
 
         img{
           width: 100%;
@@ -40,24 +40,24 @@
       }
 
       &-text{
-        max-width: 57.6rem;
-        padding-top: 2.6rem;
+        max-width: rem(576);
+        padding-top: rem(26);
 
         h2{
-          max-width: 52.5rem;
+          max-width: rem(525);
           color: #000;
           font-family: $base-ff;
-          font-size: 2.1rem;
+          font-size: rem(21);
           font-style: normal;
           font-weight: 700;
           line-height: normal;
         }
 
         p{
-          margin-top: 2rem;
+          margin-top: rem(20);
           color: #000;
           font-family: $base-ff;
-          font-size: 1.6rem;
+          font-size: rem(16);
           font-style: normal;
           font-weight: 600;
           line-height: normal;
@@ -65,11 +65,11 @@
 
         ul{
 
-          margin-top: 2rem;
+          margin-top: rem(20);
           li{
             color: #000;
             font-family: $base-ff;
-            font-size: 1.6rem;
+            font-size: rem(16);
             font-style: normal;
             font-weight: 400;
             line-height: normal;
@@ -80,12 +80,12 @@
   }
 
   .delivery{
-    margin-top: 6.8rem;
+    margin-top: rem(68);
 
     h2{
       color: #000;
       font-family: $base-ff;
-      font-size: 3rem;
+      font-size: rem(30);
       font-style: normal;
       font-weight: 700;
       line-height: normal;
@@ -96,19 +96,19 @@
       display: flex;
       background: #ECECED;
       width: 100%;
-      padding: 3.3rem 7rem;
-      margin-top: 2.3rem;
-      gap: 7.6rem;
+      padding: rem(33) rem(70);
+      margin-top: rem(23);
+      gap: rem(76);
 
       &-block{
         display: flex;
         flex-direction: column;
 
         ul{
-          margin-top: 0.5rem;
+          margin-top: rem(5);
           color: #000;
           font-family: $base-ff;
-          font-size: 1.6rem;
+          font-size: rem(16);
           font-style: normal;
           font-weight: 400;
           line-height: normal;
@@ -124,7 +124,7 @@
         display: flex;
         color: #000;
         font-family: $base-ff;
-        font-size: 2.3rem;
+        font-size: rem(23);
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -136,13 +136,13 @@
   }
 
   .cards{
-    margin-top: 4.3rem;
-    padding-bottom: 9.3rem;
+    margin-top: rem(43);
+    padding-bottom: rem(93);
 
     h2{
       color: #000;
       font-family: $base-ff;
-      font-size: 2.3rem;
+      font-size: rem(23);
       font-style: normal;
       font-weight: 600;
       line-height: normal;
@@ -152,11 +152,11 @@
     p{
       color: #000;
       font-family: $base-ff;
-      font-size: 1.6rem;
+      font-size: rem(16);
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-      margin-top: 0.2rem;
+      margin-top: rem(2);
     }
 
     &_container{
@@ -164,24 +164,24 @@
       flex-wrap: wrap;
       justify-content: space-between;
 
-      gap: 2rem 2rem;
+      gap: rem(2) rem(2);
 
       &-element{
-        width: 38.8rem;
+        width: rem(380);
         display: flex;
         flex-direction: column;
         justify-content: center;
 
 
         img{
-          width: 6.2rem;
-          height: 6.2rem;
+          width: rem(62);
+          height: rem(62);
         }
 
         p{
           color: #000;
           font-family: $base-ff;
-          font-size: 1.6rem;
+          font-size: rem(16);
           font-style: normal;
           font-weight: 500;
           line-height: normal;
@@ -189,12 +189,12 @@
 
         &:nth-child(1){
           img{
-            width: 7.7rem;
-            height: 11.5rem;
+            width: rem(77);
+            height: rem(115);
           }
           p{
             position: relative;
-            top: -1.7rem;
+            top: rem(-17);
           }
         }
       }

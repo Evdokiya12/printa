@@ -4,7 +4,7 @@ footer{
   .footer{
 
     &_wrapper {
-      padding: 3.6rem 20.2rem 8.5rem;
+      padding: rem(36) rem(202) rem(85);
       display: flex;
       width: 100%;
       align-items: center;
@@ -17,22 +17,22 @@ footer{
       display: flex;
       width: 100%;
       justify-content: space-between;
-      gap: 12rem;
+      gap: rem(120);
 
 
       &-logo{
         display: flex;
         align-items: center;
-        width: 22rem;
+        width: rem(220);
         img{
-          width: 15.3rem;
-          height: 4.6rem;
+          width: rem(153);
+          height: rem(46);
         }
 
         p{
           color: #FFF;
           font-family: $base-ff;
-          font-size: 2rem;
+          font-size: rem(20);
           font-style: normal;
           font-weight: 300;
           line-height: normal;
@@ -42,7 +42,7 @@ footer{
       &-link{
         color: #FFF;
         font-family: $base-ff;
-        font-size: 1.6rem;
+        font-size: rem(16);
         font-style: normal;
         font-weight: 300;
         line-height: normal;
@@ -54,7 +54,7 @@ footer{
 
       ul{
         display: flex;
-        width: 85.9rem;
+        width: rem(859);
         align-items: center;
         justify-content: space-between;
         li{

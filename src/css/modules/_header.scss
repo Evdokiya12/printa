@@ -1,8 +1,8 @@
 header{
-  margin-top: 3.2rem;
+  margin-top: rem(32);
   width: 100%;
   .header_wrapper{
-    padding: 0 21.1rem;
+    padding: 0 rem(211);
     width: 100%;
 
 
@@ -13,7 +13,7 @@ header{
 
     &_row{
       width: 100%;
-      padding-left: 2.7rem;
+      padding-left: rem(27);
 
       ul{
         display: flex;
@@ -24,7 +24,7 @@ header{
 
       &-link{
         color: #000;
-        font-size: 1.6rem;
+        font-size: rem(16);
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -39,45 +39,45 @@ header{
     &_info{
       display: flex;
       width: 100%;
-      margin-top: 0.5rem;
+      margin-top: rem(5);
       align-items: center;
 
       &-logo{
         img{
-          width: 33.4rem;
-          height: 9.6rem;
+          width: rem(334);
+          height: rem(96);
         }
       }
 
       &-search{
-        border: 0.1rem solid #8D8B8B;
-        padding: 1rem 1.1rem 1.3rem;
-        width: 30.8rem;
+        border: rem(1) solid #8D8B8B;
+        padding: rem(10) rem(11) rem(13);
+        width: rem(308);
         font-family: $base-ff;
-        font-size: 1.4rem;
+        font-size: rem(14);
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-left: 2.2rem;
+        margin-left: rem(22);
       }
 
       ul{
         display: flex;
         align-items: center;
         //gap: 2.4rem;
-        margin-left: 2.7rem;
+        margin-left: rem(27);
 
         li{
           &:nth-child(2){
-            margin-left: 2.4rem;
+            margin-left: rem(24);
           }
 
           &:nth-child(3){
-            margin-left: 1.8rem;
+            margin-left: rem(18);
           }
 
           &:nth-child(4){
-            margin-left: 2.5rem;
+            margin-left: rem(25);
           }
         }
       }
@@ -87,29 +87,33 @@ header{
         align-items: center;
         color: #050505;
         font-family: $base-ff;
-        font-size: 1.8rem;
+        font-size: rem(18);
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         white-space: nowrap;
 
+        img{
+          width: rem(17.64);
+          height: rem(17.64);
+        }
 
       }
 
       &-form{
         background: transparent;
-        padding: 1rem 3.5rem;
+        padding: rem(10) rem(35);
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 0.1rem solid #736D6D;
+        border: rem(1) solid #736D6D;
         color: #393536;
-        font-size: 1.6rem;
+        font-size: rem(16);
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         white-space: nowrap;
-        margin-left: 2.4rem;
+        margin-left: rem(24);
       }
     }
   }

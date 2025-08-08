@@ -1,59 +1,59 @@
 .xerox{
 
   .catalog{
-    margin-bottom: 7.1rem;
+    margin-bottom: rem(71);
 
 
     &_container{
       display: flex;
       flex-direction: column;
-      gap: 3.4rem;
+      gap: rem(34);
     };
 
     &_row{
       display: flex;
-      gap: 3.2rem;
+      gap: rem(32);
 
       &-first{
-        max-width: 38rem;
+        max-width: rem(380);
         width: 100%;
 
         h2{
 
           color: #000;
           font-family: $base-ff;
-          font-size: 3.6rem;
+          font-size: rem(36);
           font-style: normal;
           font-weight: 700;
           line-height: normal;
           text-transform: uppercase;
-          margin-top: 4rem;
+          margin-top: rem(40);
         }
 
         .title{
           color: #000;
           font-family: $base-ff;
-          font-size: 1.9rem;
+          font-size: rem(19);
           font-style: normal;
           font-weight: 700;
           line-height: normal;
-          margin-top: 1.6rem;
+          margin-top: rem(16);
 
         }
 
         .subtitle{
           color: #000;
           font-family: $base-ff;
-          font-size: 1.6rem;
+          font-size: rem(16);
           font-style: normal;
           font-weight: 700;
           line-height: normal;
-          margin-top: 0.2rem;
+          margin-top: rem(2);
         }
 
         ul{
-          margin-left: 1.5rem;
-          margin-top: 0.5rem;
+          margin-left: rem(15);
+          margin-top: rem(5);
 
           li{
             list-style: disc;
@@ -61,7 +61,7 @@
             a{
               color: #000;
               font-family: $base-ff;
-              font-size: 1.6rem;
+              font-size: rem(16);
               font-style: normal;
               font-weight: 400;
               line-height: normal;
@@ -75,43 +75,57 @@
 
         .breadcrumbs{
 
-          margin-top: 4.5rem;
+          margin-top: rem(45);
           display: flex;
           align-items: center;
-          gap: 1.3rem;
+          gap: rem(13);
 
           p{
             color: #C1C1C4;
             font-family: $base-ff;
-            font-size: 1.5rem;
+            font-size: rem(15);
             font-style: normal;
             font-weight: 700;
             line-height: normal;
             text-transform: uppercase;
+          }
+
+          img{
+            width: rem(16);
+            height: rem(16);
+
           }
         }
 
         .cards{
           display: flex;
           flex-wrap: wrap;
-          gap: 1rem;
-          margin-top: 3.7rem;
+          gap: rem(10);
+          margin-top: rem(37);
 
           &-element{
-            width: 23.8rem;
+            width: rem(238);
             background: #ECECED;
             height: max-content;
             display: flex;
             flex-direction: column;
-            padding: 1rem 1.5rem 1.5rem;
-            gap: 1rem;
+            padding: rem(10) rem(15) rem(15);
+            gap: rem(10);
+            transition: all .3s ease-in-out;
+
+            &:hover{
+              .img{
+                filter: grayscale(0);
+              }
+            }
 
 
 
             .img{
-              width: 20.7rem;
-              height: 14.1rem;
-              border-radius: 3rem;
+              width: rem(207);
+              height: rem(141);
+              border-radius: rem(30);
+              filter: grayscale(1);
             }
 
             .description{
@@ -121,12 +135,12 @@
                 color: #000;
                 text-align: center;
                 font-family: $base-ff;
-                font-size: 1.4rem;
+                font-size: rem(14);
                 font-style: normal;
                 font-weight: 600;
                 line-height: normal;
-                margin-bottom: 0.8rem;
-                margin-top: 0.4rem;
+                margin-bottom: rem(8);
+                margin-top: rem(4);
               }
 
               .cost{
@@ -134,7 +148,7 @@
                 color: #000;
                 text-align: center;
                 font-family: $base-ff;
-                font-size: 2rem;
+                font-size: rem(20);
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
@@ -144,15 +158,15 @@
 
             .all{
               display: flex;
-              padding: 1.6rem 2rem;
+              padding: rem(16) rem(20);
               justify-content: center;
               align-items: center;
-              gap: 1rem;
-              border: 0.1rem solid #000;
+              gap: rem(10);
+              border: rem(1) solid #000;
               background: #FFF;
               color: #000;
               font-family: $base-ff;
-              font-size: 1.6rem;
+              font-size: rem(16);
               font-style: normal;
               font-weight: 600;
               line-height: normal;
@@ -160,29 +174,20 @@
 
             button{
               display: flex;
-              padding: 1.6rem 2rem;
+              padding: rem(16) rem(20);
               justify-content: center;
               align-items: center;
-              gap: 1rem;
+              gap: rem(10);
               background: #231F20;
               color: #FFF;
               font-family: $base-ff;
-              font-size: 1.6rem;
+              font-size: rem(16);
               font-style: normal;
               font-weight: 400;
               line-height: normal;
             }
 
           }
-
-
-
-
-
-
-
-
-
         }
       }
     }

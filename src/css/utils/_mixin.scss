@@ -5,11 +5,7 @@
   }
 }
 
-@mixin tablet {
-  @media screen and (max-width: $tablet) {
-    @content;
-  }
-}
+
 
 @mixin phone {
   @media screen and (max-width: $phone) {
